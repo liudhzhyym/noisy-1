@@ -37,7 +37,7 @@
     NoiseGenerator *_generator;
     int previousNoiseType; // Saves the noise type during 'mute'
 }
-
+@property (nonatomic, readonly) NSStatusItem *statusItem;
 - (IBAction)openAboutNoiseColors:(id)sender;
 - (IBAction)openNoisyWebsite:(id)sender;
 

@@ -36,6 +36,7 @@ static NSString *sNoiseVolumeKeyPath = @"NoiseVolume";
 
 @implementation NoisyApp
 
+
 + (void)initialize
 {
     NSMutableDictionary *defaults = [NSMutableDictionary dictionary];
@@ -246,5 +247,6 @@ static NSString *sNoiseVolumeKeyPath = @"NoiseVolume";
 
     [[NSUserDefaults standardUserDefaults] setDouble:volume forKey:sNoiseVolumeKeyPath];
 }
+
 
 @end
